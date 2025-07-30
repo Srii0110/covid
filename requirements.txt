@@ -9,4 +9,3 @@ fastapi
 typing
 gunicorn
 streamlit
-os
