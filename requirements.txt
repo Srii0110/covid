@@ -3,7 +3,7 @@ scikit-learn
 pandas
 joblib
 pydantic
-google.generative.ai
+google.generativeai
 numpy
 fastapi
 typing
