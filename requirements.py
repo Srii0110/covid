@@ -1,0 +1,9 @@
+uvicorn
+sklerarn
+pandas
+joblib
+pydantic
+Generativeai
+numpy
+fastapi
+typing
