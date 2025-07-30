@@ -7,4 +7,4 @@ Generative.ai
 numpy
 fastapi
 typing
-guvicorn
+gunicorn
