@@ -7,7 +7,7 @@ from typing import Literal
 from sklearn.preprocessing import LabelEncoder
 
 
-ml = joblib.load("D:\Demo-covid\source\ml_source\covid_diag.pkl")
+ml = joblib.load("covid_diag.pkl")
 
 class inp_data(BaseModel):
     Age : int
