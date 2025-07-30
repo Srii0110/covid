@@ -3,7 +3,8 @@ sklerarn
 pandas
 joblib
 pydantic
-Generativeai
+Generative.ai
 numpy
 fastapi
 typing
+guvicorn
