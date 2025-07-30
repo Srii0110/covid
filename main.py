@@ -24,6 +24,12 @@ class inp_data(BaseModel):
 app = FastAPI()
 
 @app.post('/')
+def get_random():
+    return {"random_number": randint(1, 100)}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
 
 def root_msg():
     return {'Hello' , 'Welcome'}
